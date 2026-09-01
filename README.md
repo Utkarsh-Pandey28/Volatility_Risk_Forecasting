@@ -47,8 +47,8 @@ The notebook compares all price-forecasting models on **MAE** and **RMSE**, and 
 > **Note on the regime classifier:** the time-based train/test split leaves the "High Vol" class under-represented in the test set, which inflates overall accuracy while understating recall for that class. For production use, prefer walk-forward validation and report precision/recall/F1 for the high-vol class specifically — see the notebook's caveats section for details.
 
 ## Repository Structure
-├── Volatility_Risk_Forecasting_TS.ipynb 
-├── Core_TimeSeries.csv 
-├── requirements.txt 
-├── images
-└── README.md
+-├── Volatility_Risk_Forecasting_TS.ipynb 
+-├── Core_TimeSeries.csv 
+-├── requirements.txt 
+-├── images
+-└── README.md
