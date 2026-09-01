@@ -34,7 +34,7 @@ A time-series project that forecasts financial volatility, estimates market risk
 ## Screenshots
 
 ### Daily & Log Returns
-![Daily and log returns](images/01_returns.png)
+![Daily and log returns](C:\Users\pande\Downloads)
 
 ### Rolling Volatility vs. Historical Volatility
 ![Rolling volatility](images/02_rolling_volatility.png)
