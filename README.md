@@ -56,3 +56,34 @@ The notebook compares all price-forecasting models on **MAE** and **RMSE**, and 
 ├── images
 
 └── README.md
+
+## Requirements
+
+- Python 3.9+
+- Key libraries: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scipy`, `scikit-learn`, `xgboost`, `statsmodels`, `arch`, `tensorflow`
+
+Install everything with:
+
+```bash
+pip install -r requirements.txt
+```
+
+## Data
+
+Place `Core_TimeSeries.csv` in the project root before running the notebook. The file is expected to have (at minimum) the following columns: `Date`, `Open_Price`, `High_Price`, `Low_Price`, `Close_Price`, `Volume`, `Market_Cap`, `Volatility_Range`, `SMA_20`, `SMA_50`, `RSI_14`.
+
+## Usage
+
+```bash
+git clone https://github.com/<your-username>/<your-repo-name>.git
+cd <your-repo-name>
+pip install -r requirements.txt
+jupyter notebook Volatility_Risk_Forecasting_TS.ipynb
+```
+
+## Possible Extensions
+
+- Grid-search / `auto_arima`-style order selection for ARIMA & SARIMAX instead of fixed (p,d,q)
+- EGARCH/GJR-GARCH to capture asymmetric volatility (leverage effect)
+- Walk-forward (rolling-origin) validation for the regime classifier
+- Stratified sampling by volatility regime when splitting train/test data
