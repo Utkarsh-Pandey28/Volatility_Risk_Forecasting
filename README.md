@@ -31,34 +31,7 @@ A time-series project that forecasts financial volatility, estimates market risk
 | 11 | LSTM — next-day price prediction |
 | 12 | Volatility regime classification (5-day-ahead) |
 
-## Screenshots
 
-### Daily & Log Returns
-![Daily and log returns](C:\Users\pande\Downloads)
-
-### Rolling Volatility vs. Historical Volatility
-![Rolling volatility](images/02_rolling_volatility.png)
-
-### Value at Risk (VaR) — Return Distribution
-![VaR distribution](images/03_var_distribution.png)
-
-### Maximum Drawdown
-![Drawdown](images/04_drawdown.png)
-
-### ARIMA — Price Forecast
-![ARIMA forecast](images/05_arima_forecast.png)
-
-### GARCH(1,1) — Conditional Volatility
-![GARCH volatility](images/06_garch_volatility.png)
-
-### Random Forest — Feature Importance
-![Feature importance](images/07_feature_importance.png)
-
-### Random Forest — Actual vs Predicted Close
-![RF prediction](images/08_rf_prediction.png)
-
-### Model Comparison (Test RMSE)
-![Model comparison](images/09_model_comparison.png)
 
 ## Key Techniques
 
