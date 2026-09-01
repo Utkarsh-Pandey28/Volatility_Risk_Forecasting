@@ -72,14 +72,7 @@ pip install -r requirements.txt
 
 Place `Core_TimeSeries.csv` in the project root before running the notebook. The file is expected to have (at minimum) the following columns: `Date`, `Open_Price`, `High_Price`, `Low_Price`, `Close_Price`, `Volume`, `Market_Cap`, `Volatility_Range`, `SMA_20`, `SMA_50`, `RSI_14`.
 
-## Usage
 
-```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
-pip install -r requirements.txt
-jupyter notebook Volatility_Risk_Forecasting_TS.ipynb
-```
 
 ## Possible Extensions
 
